@@ -27,9 +27,17 @@ body {
   background-color: #e9e9e9;
 }
 
+header {
+  display: flex;
+  justify-content: space-around;
+  height: 75px;
+  align-items: center;
+  background-color: #ffffff;
+}
+
 nav {
   display: flex;
-  gap: 15px;
+  gap: 20px;
   font-weight: 600;
   
   a {
@@ -42,18 +50,44 @@ nav {
     }
 }
 
-header {
-  display: flex;
-  justify-content: space-around;
-  height: 75px;
-  align-items: center;
-  background-color: #ffffff;
-}
-
 .logo {
   height: 35px;
 }
 
 .imgCarrinho {
   height: 35px;
+}
+
+.news{
+  background-image: url(./imagens/bolsa-wallpaper.jpg);
+  height: 550px;
+  margin-top: 12px;
+
+  h1{
+    width: 30px;
+    font-size: 55px;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+  }
+
+  p{
+    width: 400px;
+    font-size: 16px;
+    position: absolute;
+    top: 47%;
+    left: 10%;
+  }
+
+  button{
+    width: 200px;
+    padding: 16px;
+    font-size: 16px;
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    color: white;
+    background-color: #038f26;
+    border: none;
+  }
 }
