@@ -91,3 +91,27 @@ nav {
     border: none;
   }
 }
+
+.produtos{
+  background-color: #ffffff;
+  margin-top: 10px;
+}
+
+.fileira1{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+.produto{
+  padding-top: 100px;
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+  img{
+    width: 300px;
+  }
+  h3,p{
+    text-align: center;
+  }
+}
