@@ -97,7 +97,7 @@ nav {
   margin-top: 10px;
 }
 
-.fileira1{
+.fileira1, .fileira2{
   display: flex;
   justify-content: space-evenly;
   margin-top: 10px;
